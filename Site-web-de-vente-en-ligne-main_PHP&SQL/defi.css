@@ -1,0 +1,22 @@
+/* Style général pour la page */
+body {
+  margin: 0; /* Supprime les marges par défaut */
+  height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  display: flex; /* Active le flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  
+  /* Image de fond */
+  background-image: url('OIP.jpg'); /* Remplace par ton image */
+  background-size: cover; /* L’image couvre toute la page */
+  background-position: center; /* Centrée */
+  background-repeat: no-repeat; /* Pas de répétition */
+}
+
+/* Contenu centré */
+.container {
+  text-align: center; /* Centre le texte à l’intérieur */
+  background-color: rgba(255, 255, 255, 0.8); /* Optionnel : fond semi-transparent */
+  padding: 20px;
+  border-radius: 10px;
+}
